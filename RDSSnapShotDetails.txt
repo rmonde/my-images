@@ -1,0 +1,5 @@
+AllocatedStorage           : 100
+AvailabilityZone           : us-east-1a
+
+
+
