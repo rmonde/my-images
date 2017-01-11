@@ -1,8 +1,6 @@
 AllocatedStorage           : 100
 AvailabilityZone           : us-east-1a
 
-========================================
-
 New data asdasdas
 
 
