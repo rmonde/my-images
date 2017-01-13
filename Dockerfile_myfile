@@ -1,0 +1,13 @@
+# Docker file build by Rahul Monde
+FROM ubuntu
+
+MAINTAINER Rahul Monde rahul.monde@cognizant.com
+
+# Actual installation
+RUN apt-get update
+RUN apt-get install -y python python-pip wget 
+RUN pip install Flask
+
+Add hello.txt /root/hello.txt
+
+WORKDIR /root
